@@ -27,7 +27,7 @@ const Quizzington = () => {
 
     const next = () =>{
         if(value === questions.length){
-            return alert("Game Over!")
+            return(alert("Game Over!"))
         }
         setValue(value+1)
         if(answer){
